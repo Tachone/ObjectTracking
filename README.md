@@ -28,3 +28,5 @@ Human target detection and tracking
 ### 说明
 * 由于项目包含很多dll，github上传太慢，这里放出项目百度云的链接
 链接：http://pan.baidu.com/s/1jI9lmzs 密码：94mm
+
+对项目更加详细的介绍： http://blog.csdn.net/NK_test/article/details/74127868
