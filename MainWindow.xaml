@@ -1,0 +1,24 @@
+﻿<Window x:Class="ImageProcess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Human Tracking By Tach" Height="621" Width="926">
+    <Grid>
+        <GroupBox Header="Input &amp; Select" Height="515" HorizontalAlignment="Left" Margin="12,12,0,0" Name="groupBox1" VerticalAlignment="Top" Width="664">
+            <Grid>
+                <Image Height="480" HorizontalAlignment="Left" Margin="6,6,0,0" Name="inputImage" Stretch="Uniform" VerticalAlignment="Top" Width="640" MouseDown="inputImage_MouseDown" MouseUp="inputImage_MouseUp" MouseMove="inputImage_MouseMove" />
+                <Canvas Height="480" HorizontalAlignment="Left" Margin="6,6,0,0" Name="inputImageCanvas" VerticalAlignment="Top" Width="640" MouseUp="inputImage_MouseUp" />
+            </Grid>
+        </GroupBox>
+        <Button Content="Exit" Height="37" HorizontalAlignment="Left" Margin="797,533,0,0" Name="exitBtn" VerticalAlignment="Top" Width="94" Click="exitBtn_Click" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="692,29,0,0" Name="hueImage" Stretch="Fill" VerticalAlignment="Top" Width="200" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="691,202,0,0" Name="backprojectImage" Stretch="Fill" VerticalAlignment="Top" Width="200" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="691,377,0,0" Name="maskImage" Stretch="Fill" VerticalAlignment="Top" Width="200" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="692,29,0,0" Name="textBox1" VerticalAlignment="Top" Width="72" Text="Hue Image" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="691,202,0,0" Name="textBox2" VerticalAlignment="Top" Width="114" Text="Backprojec tImage" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="691,377,0,0" Name="textBox3" VerticalAlignment="Top" Width="81" Text="Mask Image" />
+        <Button Content="Start" Height="37" HorizontalAlignment="Left" Margin="691,533,0,0" Name="startBtn" VerticalAlignment="Top" Width="94" Click="startBtn_Click" />
+        <Button HorizontalAlignment="Left" Height="23" Margin="173,547,0,0" Name="Forward" VerticalAlignment="Top" Width="69" Content="前进" Click="Forward_Click"/>
+        <Button Content="停止" HorizontalAlignment="Left" Height="23" Margin="292,547,0,0" VerticalAlignment="Top" Width="80" Click="Stop_Click"/>
+        <Button Content="开始跟踪" HorizontalAlignment="Left" Height="23" Margin="422,547,0,0" VerticalAlignment="Top" Width="103" Click="Track_Click"/>
+    </Grid>
+</Window>
