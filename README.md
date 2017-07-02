@@ -25,4 +25,6 @@ Human target detection and tracking
 * 机器人小车实物
 ![机器人小车实物](https://github.com/Tachone/ObjectTracking/blob/master/%E5%9B%BE%E7%89%874.png)
 
-### 具体实现
+### 说明
+* 由于项目包含很多dll，github上传太慢，这里放出项目百度云的链接
+链接：http://pan.baidu.com/s/1jI9lmzs 密码：94mm
